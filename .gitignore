@@ -1,0 +1,8 @@
+# Abaikan file hasil compile c++
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
