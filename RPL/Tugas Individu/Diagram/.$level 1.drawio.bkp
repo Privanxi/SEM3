@@ -1,0 +1,108 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="BTljBXxYfGsVsTXj3-kt">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RGcsdAdzX34nF790k23A-9" value="(Entity A)&lt;br&gt;Pengguna" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-10" value="(Entity B)&lt;br&gt;Admin" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-11" value="(Entity C)&lt;br&gt;Kalender/Reminder" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-12" value="(Entity D)&lt;br&gt;System Backup" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="680" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-13" value="(Proses 1)&lt;div&gt;Manajemen Tugas&lt;/div&gt;" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-14" value="(Data Store 1)&lt;br&gt;Data Tugas" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-15" value="(Data Store 2)&lt;br&gt;Data Kategori" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-17" value="(Data Store 3)&lt;br&gt;Data Log" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-29" value="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-18" target="RGcsdAdzX34nF790k23A-10">
+          <mxGeometry x="0.2683" relative="1" as="geometry">
+            <mxPoint x="580" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-36" value="K" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-18" target="RGcsdAdzX34nF790k23A-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-18" value="(Proses 2)&lt;br&gt;Laporan &amp;amp; Tampilan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-33" value="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-19" target="RGcsdAdzX34nF790k23A-11">
+          <mxGeometry x="-0.4146" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-34" value="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-19" target="RGcsdAdzX34nF790k23A-12">
+          <mxGeometry x="-0.4286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-19" value="(Proses 3)&lt;br&gt;Backup, log, reminder" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-20" value="A" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-9" target="RGcsdAdzX34nF790k23A-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="260" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-21" value="G" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-13" target="RGcsdAdzX34nF790k23A-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-22" value="H" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-13" target="RGcsdAdzX34nF790k23A-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-23" value="I" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-14" target="RGcsdAdzX34nF790k23A-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="230" as="sourcePoint" />
+            <mxPoint x="525" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-24" value="J" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-15" target="RGcsdAdzX34nF790k23A-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <mxPoint x="534" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-25" value="C" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-10" target="RGcsdAdzX34nF790k23A-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="231" as="sourcePoint" />
+            <mxPoint x="262" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-28" value="B" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-18" target="RGcsdAdzX34nF790k23A-9">
+          <mxGeometry x="0.2106" y="-2" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="330" as="sourcePoint" />
+            <mxPoint x="200" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGcsdAdzX34nF790k23A-38" value="L" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGcsdAdzX34nF790k23A-19" target="RGcsdAdzX34nF790k23A-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="560" as="sourcePoint" />
+            <mxPoint x="490" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
