@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1760288994 source:c:\users\najoa\documents\github\sem3\struktur data\tp-5\tp modul 5\list.cpp
+	<iostream>
+	"list.h"
+
+1760288535 c:\users\najoa\documents\github\sem3\struktur data\tp-5\tp modul 5\list.h
+	<iostream>
+
+1760289011 source:c:\users\najoa\documents\github\sem3\struktur data\tp-5\tp modul 5\main.cpp
+	<iostream>
+	"list.h"
+

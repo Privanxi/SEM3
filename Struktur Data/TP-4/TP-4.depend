@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1759673263 source:c:\users\najoa\documents\github\sem3\struktur data\tp-4\list.cpp
+	<iostream>
+	"list.h"
+
+1759674129 c:\users\najoa\documents\github\sem3\struktur data\tp-4\list.h
+	<iostream>
+
+1759673323 source:c:\users\najoa\documents\github\sem3\struktur data\tp-4\main.cpp
+	"list.h"
+
