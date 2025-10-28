@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1761493185 source:c:\users\najoa\documents\github\sem3\struktur data\tp-7\tp modul 7\tp modul 7\main.cpp
+	"stack.h"
+
+1761494386 c:\users\najoa\documents\github\sem3\struktur data\tp-7\tp modul 7\tp modul 7\stack.h
+	<iostream>
+
+1761494458 source:c:\users\najoa\documents\github\sem3\struktur data\tp-7\tp modul 7\tp modul 7\stack.cpp
+	"stack.h"
+
