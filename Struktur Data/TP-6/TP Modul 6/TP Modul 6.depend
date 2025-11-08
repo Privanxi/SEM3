@@ -1,13 +1,12 @@
 # depslib dependency file v1.0
-1760895109 source:c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\dll.cpp
+1762361593 source:c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\dll.cpp
 	<iostream>
 	"DLL.H"
 
-1760895250 c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\dll.h
+1762361770 c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\dll.h
 	<iostream>
 
-1760895036 source:c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\main.cpp
+1762361761 source:c:\users\najoa\documents\github\sem3\struktur data\tp-6\tp modul 6\main.cpp
 	<iostream>
 	"DLL.H"
-	<cassert>
 

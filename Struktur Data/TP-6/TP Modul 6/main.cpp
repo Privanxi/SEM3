@@ -5,11 +5,38 @@ using namespace std;
 
 int main() {
     List L;
-    int angka1, angka2, angka3;
-    address ak1, ak2, ak3;
+    char inputChar;
+    address addChar;
+    string check;
 
     createList_103032400084(L);
 
+
+    while (inputChar != '0') {
+        cout << "Masukkan kata (per-huruf): ";
+        cin >> inputChar;
+
+        if (inputChar != '0') {
+            addChar = allocate_103032400084(inputChar);
+            insertFirst_103032400084(L, addChar);
+        }
+    }
+
+    cout << "first: " << L.first -> info << endl;
+    cout << "last: " << L.last -> info << endl;
+
+    printInfoBackToFront_103032400084(L);
+    cout << endl;
+    printInfoFrontToBack_103032400084(L);
+
+    check = (isPalindrom(L)) ? "true" : "false";
+
+    cout << "apakah palindrom? " << check ;
+
+    //printInfo_103032400084(L);
+
+
+    /*
     cout << "Masukkan elemen pertama: ";
     cin >> angka1;
 
@@ -35,7 +62,7 @@ int main() {
     cout << "elemen terakhir telah dihapus" << endl << endl;
 
     cout << "daftar elemen list: ";
-    printInfo_103032400084(L);
+    */
 
     return 0;
 }

@@ -5,7 +5,7 @@
 
 using namespace std;
 
-typedef int infotype;
+typedef char infotype;
 typedef struct elmlist *address;
 
 struct elmlist {
@@ -30,5 +30,7 @@ void deleteLast_103032400084(List &L, address &p);
 void printInfoFrontToBack_103032400084(List L);
 void printInfoBackToFront_103032400084(List L);
 void insertLast2(List &L, address p);
+
+bool isPalindrom(List L);
 
 #endif // DLL_H_INCLUDED

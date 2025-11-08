@@ -5,6 +5,7 @@ using namespace std;
 
 void createList_103032400084(List &L){
     L.first = nullptr;
+    L.last = nullptr;
 }
 address allocate_103032400084(infotype x){
     address p = new elmlist;
@@ -103,4 +104,21 @@ void printInfoBackToFront_103032400084(List L){
     }
 
     cout << endl;
+}
+
+bool isPalindrom(List L) {
+    bool x = true;
+    address p = L.first;
+    address q = L.last;
+
+    while (p != nullptr && q != nullptr && x != false) {
+        if (p -> info != q -> info) {
+            x = false;
+        }
+
+        p = p -> next;
+        q = q -> prev;
+    }
+
+    return x;
 }

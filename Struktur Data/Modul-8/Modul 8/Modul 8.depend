@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1762610927 source:c:\users\najoa\documents\github\sem3\struktur data\modul-8\modul 8\main.cpp
+	"queue.h"
+
+1762610730 c:\users\najoa\documents\github\sem3\struktur data\modul-8\modul 8\queue.h
+	<iostream>
+
+1762610830 source:c:\users\najoa\documents\github\sem3\struktur data\modul-8\modul 8\queue.cpp
+	"queue.h"
+
