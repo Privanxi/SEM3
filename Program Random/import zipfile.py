@@ -3,14 +3,12 @@ import zipfile
 import rarfile
 import shutil
 
-# ======================
-# KONFIGURASI AWAL
-# ======================
-start_folder = r"c:\Users\najoa\Downloads\Extracted\secret_file_1000_extracted"  # Folder hasil ekstraksi sebelumnya
-rarfile.UNRAR_TOOL = r"C:\Program Files\WinRAR\WinRAR.exe"       # Pastikan path sesuai
+
+start_folder = r"c:\Users\najoa\Downloads\Extracted\secret_file_1000_extracted"  
+rarfile.UNRAR_TOOL = r"C:\Program Files\WinRAR\WinRAR.exe"       
 base_dir = os.path.join(os.path.dirname(start_folder), "final_extract")
 
-# Bersihkan folder lama kalau ada
+
 if os.path.exists(base_dir):
     shutil.rmtree(base_dir)
 os.makedirs(base_dir, exist_ok=True)
@@ -18,9 +16,9 @@ os.makedirs(base_dir, exist_ok=True)
 layer = 0
 current_file = None
 
-# ======================
-# FUNGSI UTILITAS
-# ======================
+
+
+
 def extract_zip(file_path, output_dir):
     with zipfile.ZipFile(file_path, 'r') as z:
         z.extractall(output_dir)
@@ -31,9 +29,8 @@ def extract_rar(file_path, output_dir):
         r.extractall(output_dir)
         return [os.path.join(output_dir, n) for n in r.namelist()]
 
-# ======================
-# CARI FILE PALING DALAM
-# ======================
+
+
 print("🔎 Mencari arsip paling dalam di:", start_folder)
 
 deepest_file = None
@@ -54,9 +51,9 @@ if not deepest_file:
 print("📦 Arsip paling dalam ditemukan:", deepest_file)
 current_file = deepest_file
 
-# ======================
-# PROSES EKSTRAKSI BERLAPIS
-# ======================
+
+
+
 while True:
     layer += 1
     extract_path = os.path.join(base_dir, f"layer_{layer}")
@@ -91,7 +88,7 @@ while True:
         last_file = inner_files[-1]
         print("📁 File terakhir ditemukan:", last_file)
 
-        # Jika file teks, tampilkan isinya
+        
         if last_file.lower().endswith((".txt", ".log", ".csv")):
             try:
                 with open(last_file, "r", encoding="utf-8") as fp:
@@ -101,7 +98,7 @@ while True:
             except UnicodeDecodeError:
                 print("⚠️ File terakhir tidak bisa dibaca sebagai teks (mungkin biner).")
 
-        # Buka otomatis di Windows
+        
         try:
             print("📖 Membuka file terakhir...")
             os.startfile(last_file)

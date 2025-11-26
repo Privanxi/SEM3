@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1763918947 source:c:\users\najoa\documents\github\sem3\struktur data\tp-11\tp modul 11\tree.cpp
+	"tree.h"
+
+1763905612 c:\users\najoa\documents\github\sem3\struktur data\tp-11\tp modul 11\tree.h
+	<iostream>
+
+1763918818 source:c:\users\najoa\documents\github\sem3\struktur data\tp-11\tp modul 11\main.cpp
+	"tree.h"
+
